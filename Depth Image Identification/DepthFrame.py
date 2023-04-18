@@ -8,7 +8,7 @@ config = rs.config()
 config.enable_device_from_file("Maman_Depth_vid.bag")
 pipeline.start(config)
 
-endTime = datetime.datetime.now() + datetime.timedelta(seconds=15)
+endTime = datetime.datetime.now() + datetime.timedelta(seconds=17)
 # Loop over frames
 while True:
     # Wait for the next frame
